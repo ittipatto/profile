@@ -1,3 +1,7 @@
+.center {
+    padding-left: auto;
+    padding-right: auto;
+}
 html {
     font-size: 20px;
     font-family: 'Open-san' , sans-serif;
