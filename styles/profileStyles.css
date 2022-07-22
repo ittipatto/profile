@@ -1,7 +1,6 @@
 .center {
     display: block;
-    padding-left: auto;
-    padding-right: auto;
+    margin: 0 auto;
 }
 figcaption.center {
 text-align: center;
