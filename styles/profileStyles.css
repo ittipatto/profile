@@ -44,7 +44,7 @@ iframe.figma {
 
 .aNav {
     /* display: block; */
-    color: #322079;
+    color: #502ddd;
     text-align: center;
     padding:20px 1px;
     text-decoration: none;
@@ -54,18 +54,20 @@ iframe.figma {
 }
 
 li a:hover:not(.active) {
-    background-image: url(/image/target5.png);
-    /* background-color: yellow; */
-    /* color: black; */
+    /* background-image: url(/image/target5.png); */
+    background-color: yellow;
+    color: black;
 }
 a.active {
-    background-image: url(/image/broken3.png);
+    /* background-image: url(/image/broken3.png); */
+    background-color: purple;
+    color: white;
 }
 div.font {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-div.padding {
+.paddingleft {
     padding-left: 40px;
 }
 li.list {
@@ -75,4 +77,9 @@ img {
     display: block;
     margin: 0 auto;
     padding: 5px;
+}
+a.dragon {
+    display: block;
+    background-image: url(/image/dragon.png);
+    background-repeat:round;
 }
